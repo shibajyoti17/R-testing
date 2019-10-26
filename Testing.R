@@ -1,3 +1,7 @@
-print("This is my first R code")
-print("And it is live on github")
-print("Howdy")
+library(dslabs)
+data("movielens")
+str(movielens)
+nrow(movielens)
+nlevels(movielens$genres)
+index <- order(murders$total)
+murders$state[index]
